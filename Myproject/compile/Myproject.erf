@@ -1,0 +1,23 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+BEGINPROGRESS Compiling...
+UPDATEPROGRESS 35
+MESSAGE_SP VCP2113 "Module stack found in current working library."
+MESSAGE "Pass 2. Processing instantiations."
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol test_push_stb has not been declared in module calculator." "c:/my_designs/PDCProject/Myproject/src/calculator.v" 42  24
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol test_pop_stb has not been declared in module calculator." "c:/my_designs/PDCProject/Myproject/src/calculator.v" 44  22
+MESSAGE_SP VCP2876 "Implicit net declaration, symbol test_pop_dat has not been declared in module calculator." "c:/my_designs/PDCProject/Myproject/src/calculator.v" 45  22
+UPDATEPROGRESS 45
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 80
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+MESSAGE_SP VCP2113 "Module \$root found in current working library."
+UPDATEPROGRESS 86
+UPDATEPROGRESS 93
+UPDATEPROGRESS 100
+MESSAGE "$root top modules: testbenchmodule."
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
+WARNING ALOG: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "done"

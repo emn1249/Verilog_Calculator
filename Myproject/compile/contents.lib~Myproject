@@ -1,0 +1,11 @@
+8
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 1 "./../src/calculator.v" 1 calculator
+~A 1 "./../src/calculator.v" 1 calculator
+~M 1 "./../src/converter.v" 1 converter
+~A 1 "./../src/converter.v" 1 converter
+~M 1 "./../src/stack.v" 1 stack
+~A 1 "./../src/stack.v" 1 stack
+~M 3 "./../src/testbench.v" 1 testbenchmodule
+~A 1 "./../src/testbench.v" 1 testbenchmodule

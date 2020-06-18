@@ -1,0 +1,1 @@
+-o c:/my_designs/PDCProject/Myproject/compile -lc c:/my_designs/PDCProject/library.cfg -fl c:/my_designs/PDCProject/Myproject/projlib.cfg -pli "C:/lscc/diamond/3.11_x64/active-hdl/bin/systf.dll" -epr c:/my_designs/PDCProject/Myproject/compile/Myproject.epr -O2 -sve -msg 5 -v2k5 -work Myproject c:/my_designs/PDCProject/Myproject/src/calculator.v 

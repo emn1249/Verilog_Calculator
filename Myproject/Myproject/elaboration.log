@@ -1,0 +1,26 @@
+Active-HDL 10.5.216.6767 2020-02-11 17:42:34
+
+Elaboration top modules:
+Verilog Module                testbenchmodule
+
+
+-------------------------------------------------------------------------------------------
+Verilog Module          | Library   | Info | Compiler Version        | Compilation Options
+-------------------------------------------------------------------------------------------
+testbenchmodule         | Myproject |      | 10.5.216.6767 (Windows) | -O2 -v2k5
+stack                   | Myproject |      | 10.5.216.6767 (Windows) | -O2 -v2k5
+converter               | Myproject |      | 10.5.216.6767 (Windows) | -O2 -v2k5
+calculator              | Myproject |      | 10.5.216.6767 (Windows) | -O2 -v2k5
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+Library                 | Comment
+-------------------------------------------------------------------------------------------
+Myproject               | None
+-------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r testbenchmodule
+
+
+The performance of simulation is reduced. Version Lattice Edition

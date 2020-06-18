@@ -1,0 +1,12 @@
+[Version]
+Version=10.5
+[Designs]
+myproject=.\Myproject\Myproject.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+myproject=1
